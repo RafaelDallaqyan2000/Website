@@ -1,0 +1,218 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  header {
+    width: 100%;
+    height: 640px;
+    padding: 180px;
+    text-align: center;
+    background: url(../images/muscAr.jpg);
+    text-shadow: 0 0 3px rgba(255, 255, 255, 0.945);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  header h1 {
+    color:rgb(197, 36, 36);
+    font-size: 140px;
+    position: absolute;
+    left: 0;
+    top: 50px;
+    /* float: left; */
+  }
+  header p {
+    position:absolute ;
+    left: 10px;
+      font-size: 40px;
+      margin-top: 15px;
+      color: rgba(173, 42, 42, 0.986);
+      
+  }
+  nav {
+    overflow: hidden;
+    background: rgb(214, 57, 57);
+    
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  nav a:nth-child(1){
+      color: rgb(233, 232, 235);
+      font-weight: 600;
+      border-right: 1px solid rgb(255, 208, 0);
+      background-color: rgba(175, 45, 45, 0.938);
+  }
+  nav a:nth-child(4){
+    border-left: 1px solid gold;
+  }
+  /* nav span {
+      color: rgb(177, 49, 49);
+      font-size: 20px;
+  } */
+  nav a.right {
+    float: right;
+  }
+  
+  nav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .row {  
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+ .side {
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+  
+  main {   
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+  }
+  .row .side .image1 img{
+    border-left: 2px solid rgb(130, 0, 65);
+    border-right: 2px solid rgb(130, 0, 41);
+  }
+  .advanced {
+    background-color: rgb(224, 215, 211);
+    padding: 5px;
+    height: 500px;
+    overflow-y: scroll;
+    
+  }
+  .advanced li {
+    overflow: hidden;
+    text-indent:  15px;
+    /* background-color: orange; */
+  }
+  /* .fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+  } */
+  footer{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 45px;
+      background: rgb(214, 57, 57);
+  }
+  p{
+      text-indent: 15px;
+  }
+  h2 {
+      color: rgb(195, 38, 38);
+  }
+.adviceh2 {
+  color: rgb(0, 17, 255);
+}
+  .SpaceTesla{
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+
+  .divOne {
+    width: 50%;
+    
+  }
+  .divOne img {
+    height: 70%;
+    width: 99%;
+  }
+  .divTwo {
+    width: 50%;
+  }
+  .divTwo img {
+    width: 99%;
+    height: 70%;
+  }
+  .pLife {
+    border: 1px solid gray;
+    margin-bottom:15px ;
+    padding: 5px;
+    border-radius: 15px;
+  }
+  .divImg {
+    background:url(../images/ElonProfile.jpeg);
+    background-size: cover;
+    height: 400px;
+    margin: 20px 0;
+  }
+  footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+  }
+  footer  ul {
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+  footer ul li {
+    list-style: none;
+    margin-left: 15px;
+  }
+  footer ul li a {
+    text-decoration: none;
+    color: crimson;
+  }
+  footer div i {
+    margin-left: 15px;
+    padding: 5px;
+}
+footer div i a {
+    text-decoration:none;
+}
+footer div i:hover {
+    text-shadow: 0 0 3px rgb(207, 156, 16), 0 0 4px rgb(165, 160, 160),0 0 5px rgb(80, 80, 80) ;
+
+}
+footer div  a .fa-instagram {
+    background: linear-gradient(red, orange);
+    border-radius: 5px;
+    padding: 3px;
+    color: rgb(0,0,0);
+}
+footer div a .fa-twitter {
+    color: silver;
+    font-size: 20px;
+    padding: 0;
+
+}
+footer div a .fa-facebook {
+    color:cyan;
+    background: rgb(7, 115, 216);
+    padding-bottom: 0;
+    padding-top: 3px;
+    border-radius: 25px;
+}
+footer div a .fa-github {
+    color: black;
+    font-size: 20px;
+}
+footer div a .fa-youtube {
+    color: red;
+    background: rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 4px 4px 2px;
+}
